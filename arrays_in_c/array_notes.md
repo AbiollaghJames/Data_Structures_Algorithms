@@ -46,3 +46,31 @@ Length = upper_bound – lower_bound + 1
 
 where upper_bound is the index of the last element and lower_bound is the index of the first element
 in the array.
+
+OPERATIONS ON ARRAYS
+	- Traversing an array
+	- Inserting an element in an array
+	- Searching an element in an array
+	- Deleting an element from an array
+	- Merging two arrays
+	- Sorting an array in ascending or descending order
+- Traversing an array means accessing each and every element of the array for a specific purpose.
+- Traversing the data elements of an array can include printing every element, counting the
+  total number of elements, or performing any process on these elements. Since, array is a linear
+  data structure (because all its elements form a sequence), traversing its elements is very simple
+  and straightforward.
+
+Algorithm for Array traversal
+ 1. [INITIALIZATION] set i = lower_bound
+ 2. Repeat steps 3 to 4 while i <= upper_bound
+ 3.	Apply process to array[i]
+	Set i = i + 1
+	[END OF LOOP]
+ 5. EXIT
+
+Step 1. We initialize index to lower bound of array
+Step 2. Execute a while loop
+Step 3. Processes individual array element as specified by array name and index value
+Step 4. Increment index value so that next array element could be processed
+While loop in step 2 is executed until all elements in array are processed i.e.
+util i is less tha or equal upper bound of the array.
