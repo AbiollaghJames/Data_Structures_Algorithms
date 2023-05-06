@@ -16,6 +16,8 @@ int main(void)
 	print_array(a, sizeof(a) / sizeof(int));	
 	insert_at_end(a, sizeof(a) / sizeof(int), 676);
 	print_array(a, sizeof(a) / sizeof(int));
+	delete_at_pos(a, sizeof(a) / sizeof(int), 4);
+	print_array(a, sizeof(a) / sizeof(int));
 
 	return (0);
 }
